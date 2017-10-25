@@ -5,6 +5,7 @@ default_view:
     - group.home
     - group.commute
     - group.livingroom
+    - group.hallway
     - group.den
     - group.bedroom
     - group.diningroom
@@ -90,4 +91,3 @@ office:
     - camera.mjpeg_camera
     - sensor.office_temperature
     - binary_sensor.office_occupancy
-
