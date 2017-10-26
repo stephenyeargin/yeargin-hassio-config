@@ -2,5 +2,7 @@
 !*.yaml
 !scenes
 !.gitignore
+!.travis.yml
+!.secrets-travis.yml
 secrets.yaml
 known_devices.yaml
