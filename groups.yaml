@@ -3,7 +3,6 @@ default_view:
   icon: mdi:home
   entities:
     - alarm_control_panel.simplisafe
-    - climate.my_ecobee3
     - sensor.my_ecobee3_humidity
     - sensor.my_ecobee3_temperature
     - device_tracker.stephens_iphone_6
@@ -26,6 +25,12 @@ commute:
     - sensor.dark_sky_nearest_storm_distance
     - sensor.dark_sky_summary
     - sun.sun
+
+climate:
+  name: Climate
+  view: no
+  entities:
+    - climate.my_ecobee3
 
 livingroom:
   name: Living Room

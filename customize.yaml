@@ -17,7 +17,7 @@ sensor.my_ecobee3_humidity:
 binary_sensor.my_ecobee3_occupancy:
   friendly_name: Hallway Occupancy
 sensor.my_ecobee3_temperature:
-  friendly_name: Avg. Home Temperature
+  friendly_name: Avg. Home Temp.
 sensor.gtfs_sensor:
   friendly_name: Next Bus
 sensor.nashville_metropolitan_transit_authority_precarsn_to_mcc4_14_next_departure:
