@@ -15,7 +15,7 @@ sensor.dark_sky_summary:
 sensor.my_ecobee3_humidity:
   friendly_name: Humidity
 binary_sensor.my_ecobee3_occupancy:
-  friendly_name: Occupancy
+  friendly_name: Hallway Occupancy
 sensor.my_ecobee3_temperature:
   friendly_name: Avg. Home Temperature
 sensor.gtfs_sensor:

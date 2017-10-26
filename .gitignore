@@ -1,8 +1,9 @@
 *
-!*.yaml
-!scenes
 !.gitignore
-!.travis.yml
 !.secrets-travis.yml
-secrets.yaml
+!.travis.yml
+!*.yaml
+!README.md
+!scenes
 known_devices.yaml
+secrets.yaml
