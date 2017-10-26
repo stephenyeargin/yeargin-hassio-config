@@ -92,6 +92,17 @@ camera:
 # iOS Notifications
 ios:
 
+zone:
+  - name: Vanderbilt
+    latitude: 36.145793
+    longitude: -86.8096052
+    icon: mdi:briefcase
+
+  - name: Emma
+    latitude: 36.15788
+    longitude: -86.7675063
+    icon: mdi:briefcase
+
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml

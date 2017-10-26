@@ -2,19 +2,6 @@ default_view:
   view: yes
   icon: mdi:home
   entities:
-    - group.home
-    - group.commute
-    - group.livingroom
-    - group.hallway
-    - group.den
-    - group.bedroom
-    - group.diningroom
-    - group.office
-
-home:
-  name: Home
-  view: no
-  entities:
     - alarm_control_panel.simplisafe
     - climate.my_ecobee3
     - sensor.my_ecobee3_humidity
@@ -22,7 +9,13 @@ home:
     - device_tracker.stephens_iphone_6
     - sensor.stephens_iphone_6_battery_level
     - sensor.stephens_iphone_6_battery_state
-    - zone.home
+    - group.commute
+    - group.livingroom
+    - group.hallway
+    - group.den
+    - group.bedroom
+    - group.diningroom
+    - group.office
 
 commute:
   name: Commute
