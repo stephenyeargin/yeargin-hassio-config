@@ -3,8 +3,6 @@ default_view:
   icon: mdi:home
   entities:
     - alarm_control_panel.simplisafe
-    - sensor.my_ecobee3_humidity
-    - sensor.my_ecobee3_temperature
     - device_tracker.stephens_iphone_6
     - sensor.stephens_iphone_6_battery_level
     - sensor.stephens_iphone_6_battery_state
@@ -30,6 +28,8 @@ climate:
   name: Climate
   view: no
   entities:
+    - sensor.my_ecobee3_temperature
+    - sensor.my_ecobee3_humidity
     - climate.my_ecobee3
 
 livingroom:
