@@ -73,7 +73,12 @@ sensor:
     origin: PRECARSN
     destination: MCC4_14
     data: google_transit.zip
- 
+
+  - platform: gtfs
+    origin: WES25AEN
+    destination: MCC5_5
+    data: google_transit.zip
+
 # Text to speech
 tts:
   - platform: google

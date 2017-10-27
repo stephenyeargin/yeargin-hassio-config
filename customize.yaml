@@ -23,6 +23,9 @@ sensor.gtfs_sensor:
 sensor.nashville_metropolitan_transit_authority_precarsn_to_mcc4_14_next_departure:
   friendly_name: 'Next #4 Bus'
   icon: mdi:bus
+sensor.nashville_metropolitan_transit_authority_wes25aen_to_mcc5_5_next_departure:
+  friendly_name: 'Next #3/5 Bus'
+  icon: mdi:bus
 remote.living_room_apple_tv:
   hidden: true
 remote.bedroom_apple_tv:

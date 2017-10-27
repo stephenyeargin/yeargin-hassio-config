@@ -20,6 +20,7 @@ commute:
   view: no
   entities:
     - sensor.nashville_metropolitan_transit_authority_precarsn_to_mcc4_14_next_departure
+    - sensor.nashville_metropolitan_transit_authority_wes25aen_to_mcc5_5_next_departure
     - sensor.dark_sky_icon
     - sensor.dark_sky_nearest_storm_distance
     - sensor.dark_sky_summary
