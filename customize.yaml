@@ -23,8 +23,6 @@ binary_sensor.my_ecobee3_occupancy:
 sensor.my_ecobee3_temperature:
   friendly_name: Avg. Home Temp.
 sensor.gtfs_sensor:
-  friendly_name: Next Bus
-sensor.gtfs_sensor_1:
   friendly_name: 'Next #4 Bus'
   icon: mdi:bus
 sensor.gtfs_sensor_2:
