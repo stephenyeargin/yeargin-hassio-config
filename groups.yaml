@@ -18,7 +18,7 @@ commute:
   name: Commute
   view: no
   entities:
-    - sensor.gtfs_sensor_1
+    - sensor.gtfs_sensor
     - sensor.gtfs_sensor_2
     - sensor.dark_sky_nearest_storm_distance
     - sensor.dark_sky_minutely_summary
