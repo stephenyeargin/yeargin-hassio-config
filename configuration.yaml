@@ -66,8 +66,13 @@ sensor:
     api_key: !secret darksky_api_key 
     monitored_conditions:
       - summary
-      - icon
       - nearest_storm_distance
+      - apparent_temperature
+      - minutely_summary
+      - temperature_max
+      - temperature_min
+    update_interval:
+      minutes: 5
 
   - platform: gtfs
     origin: PRECARSN

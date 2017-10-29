@@ -1,7 +1,5 @@
 sensor.stephens_iphone_6_battery_state:
   hidden: true
-sensor.dark_sky_icon:
-  hidden: true
 camera.mjpeg_camera:
   friendly_name: Office
 sensor.stephens_iphone_6_battery_level:

@@ -24,6 +24,10 @@ commute:
     - sensor.dark_sky_icon
     - sensor.dark_sky_nearest_storm_distance
     - sensor.dark_sky_summary
+    - sensor.dark_sky_apparent_temperature
+    - sensor.dark_sky_minutely_summary
+    - sensor.dark_sky_temperature_max
+    - sensor.dark_sky_temperature_min
     - sun.sun
 
 climate:
