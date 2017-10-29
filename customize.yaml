@@ -12,10 +12,10 @@ sensor.dark_sky_minutely_summary:
   friendly_name: Weather
 sensor.dark_sky_temperature:
   friendly_name: Temperature
-sensor.dark_sky_temperature_max:
-  friendly_name: High
-sensor.dark_sky_temperature_min:
-  friendly_name: Low
+sensor.dark_sky_daily_low_temperature:
+  friendly_name: Low Today
+sensor.dark_sky_daily_high_temperature:
+  friendly_name: High Today
 sensor.my_ecobee3_humidity:
   friendly_name: Humidity
 binary_sensor.my_ecobee3_occupancy:
@@ -24,13 +24,9 @@ sensor.my_ecobee3_temperature:
   friendly_name: Avg. Home Temp.
 sensor.gtfs_sensor:
   friendly_name: Next Bus
-sensor.nashville_metropolitan_transit_authority_precarsn_to_mcc4_14_next_departure:
+sensor.gtfs_sensor_1:
   friendly_name: 'Next #4 Bus'
   icon: mdi:bus
-sensor.nashville_metropolitan_transit_authority_wes25aen_to_mcc5_5_next_departure:
-  friendly_name: 'Next #3/5 Bus'
+sensor.gtfs_sensor_2:
+  friendly_name: 'Next #3/#5 Bus'
   icon: mdi:bus
-remote.living_room_apple_tv:
-  hidden: true
-remote.bedroom_apple_tv:
-  hidden: true
