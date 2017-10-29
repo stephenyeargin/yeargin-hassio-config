@@ -8,8 +8,14 @@ device_tracker.stephens_iphone_6:
   friendly_name: "SMY \U0001F5FA"
 sensor.dark_sky_nearest_storm_distance:
   friendly_name: Nearest Storm Distance
-sensor.dark_sky_summary:
+sensor.dark_sky_minutely_summary:
   friendly_name: Weather
+sensor.dark_sky_temperature:
+  friendly_name: Temperature
+sensor.dark_sky_temperature_max:
+  friendly_name: High
+sensor.dark_sky_temperature_min:
+  friendly_name: Low
 sensor.my_ecobee3_humidity:
   friendly_name: Humidity
 binary_sensor.my_ecobee3_occupancy:
