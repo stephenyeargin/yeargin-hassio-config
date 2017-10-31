@@ -74,18 +74,16 @@ sensor:
       minutes: 5
 
   - platform: gtfs
+    friendly_name: "Next #4 Bus"
     origin: PRECARSN
     destination: MCC4_14
     data: google_transit.zip
 
   - platform: gtfs
+    friendly_name: "Next #3/#5 Bus"
     origin: WES25AEN
     destination: MCC5_5
     data: google_transit.zip
-
-# Text to speech
-tts:
-  - platform: google
 
 # Alarm
 alarm_control_panel:
@@ -96,6 +94,7 @@ alarm_control_panel:
 # Webcam
 camera:
   - platform: mjpeg
+    friendly_name: Office
     mjpeg_url: http://192.168.1.100:8081
 
 # iOS Notifications

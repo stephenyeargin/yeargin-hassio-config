@@ -1,7 +1,5 @@
 sensor.stephens_iphone_6_battery_state:
   hidden: true
-camera.mjpeg_camera:
-  friendly_name: Office
 sensor.stephens_iphone_6_battery_level:
   friendly_name: "SMY \U0001F50B%"
 device_tracker.stephens_iphone_6:
@@ -23,8 +21,6 @@ binary_sensor.my_ecobee3_occupancy:
 sensor.my_ecobee3_temperature:
   friendly_name: Avg. Home Temp.
 sensor.gtfs_sensor:
-  friendly_name: 'Next #4 Bus'
   icon: mdi:bus
 sensor.gtfs_sensor_2:
-  friendly_name: 'Next #3/#5 Bus'
   icon: mdi:bus
