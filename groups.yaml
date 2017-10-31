@@ -6,6 +6,7 @@ default_view:
     - device_tracker.stephens_iphone_6
     - sensor.stephens_iphone_6_battery_level
     - group.commute
+    - group.calendar
     - group.climate
     - group.livingroom
     - group.hallway
@@ -13,6 +14,15 @@ default_view:
     - group.bedroom
     - group.diningroom
     - group.office
+
+calendar:
+  name: Calendar
+  view: no
+  entities:
+    - calendar.stephens_personal
+    - calendar.samantha_yeargin
+    - calendar.indy
+    - calendar.commute
 
 commute:
   name: Commute
