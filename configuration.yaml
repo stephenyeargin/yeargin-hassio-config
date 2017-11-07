@@ -15,6 +15,15 @@ homeassistant:
 
 # Enable AppleTV devices
 apple_tv:
+  - host: 192.168.1.71
+    login_id: !secret bedroom_apple_tv_login_id
+    name: Bedroom Apple TV
+    start_off: true
+
+  - host: 192.168.1.67
+    login_id: !secret living_room_apple_tv_login_id
+    name: Living Room Apple TV
+    start_off: true
 
 # Enables the frontend
 frontend:
