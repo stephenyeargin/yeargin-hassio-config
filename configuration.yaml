@@ -13,8 +13,8 @@ homeassistant:
   # Customization file
   customize: !include customize.yaml
 
-# Show links to resources in log and frontend
-# introduction:
+# Enable AppleTV devices
+apple_tv:
 
 # Enables the frontend
 frontend:
