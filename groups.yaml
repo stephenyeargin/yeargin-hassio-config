@@ -89,4 +89,4 @@ office:
   entities:
     - sensor.office_temperature
     - binary_sensor.office_occupancy
-    - camera.mjpeg_camera
+    - camera.office

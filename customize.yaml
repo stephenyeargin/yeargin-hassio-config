@@ -18,7 +18,7 @@ binary_sensor.my_ecobee3_occupancy:
   friendly_name: Hallway Occupancy
 sensor.my_ecobee3_temperature:
   friendly_name: Avg. Home Temp.
-sensor.gtfs_sensor:
+sensor.next_4_bus:
   icon: mdi:bus
-sensor.gtfs_sensor_2:
+sensor.next_35_bus:
   icon: mdi:bus
