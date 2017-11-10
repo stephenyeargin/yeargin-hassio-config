@@ -114,6 +114,10 @@ google:
   client_id: !secret google_client_id
   client_secret: !secret google_client_secret
 
+# Digital Ocean
+digital_ocean:
+  access_token: !secret digital_ocean_api_key
+
 # Zones
 zone:
   - name: Vanderbilt
