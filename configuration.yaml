@@ -118,6 +118,16 @@ google:
 digital_ocean:
   access_token: !secret digital_ocean_api_key
 
+# Linode
+linode:
+  access_token: !secret linode_api_key
+
+# Binary Sensors
+binary_sensor:
+  - platform: linode
+    nodes:
+      - 'yeargin'
+
 # Zones
 zone:
   - name: Vanderbilt
