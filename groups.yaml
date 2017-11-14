@@ -19,6 +19,7 @@ tech_view:
   icon: mdi:desktop-classic
   entities:
     - group.linode
+    - group.whois
 
 commute:
   name: Commute
@@ -102,3 +103,18 @@ linode:
   view: no
   entities:
     - binary_sensor.yeargin
+
+whois:
+  name: Domains
+  view: no
+  entities:
+    - sensor.myseatsharecom
+    - sensor.samanthaycom
+    - sensor.samanthaycom_2
+    - sensor.seatshare
+    - sensor.slyeargincom
+    - sensor.stephenyeargincom
+    - sensor.strangepursuitnet
+    - sensor.unanimously
+    - sensor.yeargin
+    - sensor.yourliberalfriendscom
