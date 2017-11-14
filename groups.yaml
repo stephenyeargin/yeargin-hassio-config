@@ -14,6 +14,12 @@ default_view:
     - group.diningroom
     - group.office
 
+tech_view:
+  view: yes
+  icon: mdi:desktop-classic
+  entities:
+    - group.linode
+
 commute:
   name: Commute
   view: no
@@ -90,3 +96,9 @@ office:
     - sensor.office_temperature
     - binary_sensor.office_occupancy
     - camera.office
+
+linode:
+  name: Linode
+  view: no
+  entities:
+    - binary_sensor.yeargin
