@@ -136,6 +136,10 @@ sensor:
     domain: yourliberalfriends.com
     name: yourliberalfriends.com
 
+  # TravisCI
+  - platform: travisci
+    api_key: !secret github_api_key
+
 # Alarm
 alarm_control_panel:
   platform: simplisafe
