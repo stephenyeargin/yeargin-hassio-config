@@ -69,8 +69,8 @@ sun:
 ecobee:
   api_key: !secret ecobee_api_key 
 
-# Weather prediction
 sensor:
+  # Weather
   - platform: darksky
     api_key: !secret darksky_api_key 
     monitored_conditions:
@@ -82,6 +82,7 @@ sensor:
     update_interval:
       minutes: 5
 
+  # Bus Schedules
   - platform: gtfs
     name: "Next #4 Bus"
     origin: PRECARSN
@@ -93,6 +94,47 @@ sensor:
     origin: WES25AEN
     destination: MCC5_5
     data: google_transit.zip
+
+  # Whois
+  - platform: whois
+    domain: myseatshare.com
+    name: myseatshare.com
+
+  - platform: whois
+    domain: samantha-y.com
+    name: samantha-y.com
+
+  - platform: whois
+    domain: samanthay.com
+    name: samanthay.com
+
+  - platform: whois
+    domain: seatsha.re
+    name: seatsha.re
+
+  - platform: whois
+    domain: slyeargin.com
+    name: slyeargin.com
+
+  - platform: whois
+    domain: stephenyeargin.com
+    name: stephenyeargin.com
+
+  - platform: whois
+    domain: strangepursuit.net
+    name: strangepursuit.net
+
+  - platform: whois
+    domain: unanimous.ly
+    name: unanimous.ly
+
+  - platform: whois
+    domain: yearg.in
+    name: yearg.in
+
+  - platform: whois
+    domain: yourliberalfriends.com
+    name: yourliberalfriends.com
 
 # Alarm
 alarm_control_panel:
