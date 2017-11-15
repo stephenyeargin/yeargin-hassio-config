@@ -95,6 +95,15 @@ sensor:
     destination: MCC5_5
     data: google_transit.zip
 
+  # Lyft
+  - platform: lyft
+    client_id: !secret lyft_client_id
+    client_secret: !secret lyft_client_secret
+    start_latitude: 36.1880707
+    start_longitude: -86.7182701
+    end_latitude: 36.1610221
+    end_longitude: -86.7815272
+
   # Whois
   - platform: whois
     domain: myseatshare.com
