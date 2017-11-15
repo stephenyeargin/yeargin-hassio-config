@@ -18,6 +18,7 @@ tech_view:
   view: yes
   icon: mdi:desktop-classic
   entities:
+    - group.speedtest
     - group.linode
     - group.whois
     - group.travis
@@ -143,4 +144,11 @@ travis:
     - sensor.stephenyearginhubotuntappdfriends_last_build_state
     - sensor.stephenyearginhubotwunderground_last_build_state
     - sensor.stephenyearginyammeroauth2php_last_build_state
-    
+
+speedtest:
+  name: SpeedTest
+  view: no
+  entities:
+    - sensor.speedtest_download
+    - sensor.speedtest_upload
+    - sensor.speedtest_ping
