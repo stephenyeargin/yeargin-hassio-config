@@ -29,6 +29,8 @@ commute:
   entities:
     - sensor.next_4_bus
     - sensor.next_35_bus
+    - sensor.lyft_time
+    - sensor.lyft_price
     - sensor.dark_sky_nearest_storm_distance
     - sensor.dark_sky_minutely_summary
     - sensor.dark_sky_temperature
