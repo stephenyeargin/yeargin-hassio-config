@@ -20,6 +20,7 @@ tech_view:
   entities:
     - group.linode
     - group.whois
+    - group.travis
 
 commute:
   name: Commute
@@ -118,3 +119,28 @@ whois:
     - sensor.unanimously
     - sensor.yeargin
     - sensor.yourliberalfriendscom
+    
+travis:
+  name: TravisCI
+  view: no
+  entities:
+    - sensor.seatshareseatgeek_last_build_state
+    - sensor.seatsharesoda_xml_team_last_build_state
+    - sensor.stephenyearginhubotbcyclefinder_last_build_state
+    - sensor.stephenyearginhubotcreatesend_last_build_state
+    - sensor.stephenyearginhubotfitbitleaders_last_build_state
+    - sensor.stephenyearginhubotflickrgroupsearch_last_build_state
+    - sensor.stephenyearginhubotfoursquarelocator_last_build_state
+    - sensor.stephenyearginhubotfoursquarelunch_last_build_state
+    - sensor.stephenyearginhubotgetbacktowork_last_build_state
+    - sensor.stephenyearginhubotgithubdeployments_last_build_state
+    - sensor.stephenyearginhubotgrafana_last_build_state
+    - sensor.stephenyearginhubothockey_last_build_state
+    - sensor.stephenyearginhubotlyft_last_build_state
+    - sensor.stephenyearginhubotnashvillenews_last_build_state
+    - sensor.stephenyearginhubotnashvillepollen_last_build_state
+    - sensor.stephenyearginhubotnextbus_last_build_state
+    - sensor.stephenyearginhubotuntappdfriends_last_build_state
+    - sensor.stephenyearginhubotwunderground_last_build_state
+    - sensor.stephenyearginyammeroauth2php_last_build_state
+    
