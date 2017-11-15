@@ -140,6 +140,13 @@ sensor:
   - platform: travisci
     api_key: !secret github_api_key
 
+  # SpeedTest
+  - platform: speedtest
+    monitored_conditions:
+      - ping
+      - download
+      - upload
+
 # Alarm
 alarm_control_panel:
   platform: simplisafe
