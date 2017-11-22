@@ -76,7 +76,7 @@ den:
   entities:
     - light.den_1
     - light.den_2
-    - camera.office
+    - camera.den
 
 bedroom:
   name: Bedroom
