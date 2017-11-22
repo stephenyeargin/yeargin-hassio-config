@@ -14,6 +14,13 @@ default_view:
     - group.diningroom
     - group.office
 
+camera_view:
+  view: yes
+  icon: mdi:camcorder
+  entities:
+    - camera.den
+    - camera.office
+
 tech_view:
   view: yes
   icon: mdi:desktop-classic
@@ -76,7 +83,6 @@ den:
   entities:
     - light.den_1
     - light.den_2
-    - camera.den
 
 bedroom:
   name: Bedroom
@@ -101,7 +107,6 @@ office:
   entities:
     - sensor.office_temperature
     - binary_sensor.office_occupancy
-    - camera.office
 
 linode:
   name: Linode
