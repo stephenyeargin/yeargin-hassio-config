@@ -21,6 +21,13 @@ camera_view:
     - camera.den
     - camera.office
 
+media_view:
+  view: yes
+  icon: mdi:television
+  entities:
+    - media_player.living_room_apple_tv
+    - media_player.bedroom_apple_tv
+
 tech_view:
   view: yes
   icon: mdi:desktop-classic
@@ -59,7 +66,6 @@ livingroom:
   entities:
     - sensor.living_room_temperature
     - binary_sensor.living_room_occupancy
-    - media_player.living_room_apple_tv
     - light.living_room_downlight_1
     - light.living_room_downlight_2
     - light.living_room_downlight_3
@@ -90,7 +96,6 @@ bedroom:
   entities:
     - sensor.bedroom_temperature
     - binary_sensor.bedroom_occupancy
-    - media_player.bedroom_apple_tv
     - light.nightstand
 
 diningroom:
