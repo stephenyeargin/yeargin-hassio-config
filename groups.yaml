@@ -12,6 +12,7 @@ default_view:
     - group.den
     - group.bedroom
     - group.diningroom
+    - group.kitchen
     - group.office
     - group.outdoor
 
@@ -106,6 +107,14 @@ diningroom:
     - light.dining_room_1
     - light.dining_room_2
     - light.dining_room_3
+
+kichen:
+  name: Kitchen
+  view: no
+  entities:
+    - light.sink
+    - light.kitchen_fan_1
+    - light.kitchen_fan_2
 
 office:
   name: Office
