@@ -13,6 +13,7 @@ default_view:
     - group.bedroom
     - group.diningroom
     - group.office
+    - group.outdoor
 
 camera_view:
   view: yes
@@ -112,6 +113,12 @@ office:
   entities:
     - sensor.office_temperature
     - binary_sensor.office_occupancy
+
+outdoor:
+  name: Outdoor
+  view: no
+  entities:
+    - switch.porch_outlet
 
 linode:
   name: Linode
