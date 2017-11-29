@@ -209,7 +209,7 @@ travis:
     - sensor.stephenyearginyammeroauth2php_last_build_state
 
 speedtest:
-  name: SpeedTest
+  name: Speedtest
   view: no
   entities:
     - sensor.speedtest_download
