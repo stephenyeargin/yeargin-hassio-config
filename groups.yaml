@@ -75,7 +75,7 @@ living_room:
 living_room_downlights:
   name: Living Room Downlights
   view: no
-  icon: mdi:lightbulb
+  icon: mdi:ceiling-light
   entities:
     - light.living_room_downlight
     - light.living_room_downlight_2
@@ -94,7 +94,7 @@ hallway:
 hallway_light:
   name: Hallway
   view: no
-  icon: mdi:lightbulb
+  icon: mdi:ceiling-light
   entities:
     - light.hallway
     - light.hallway_2
@@ -103,13 +103,12 @@ den:
   name: Den
   view: no
   entities:
-    - light.den
-    - light.den_2
+    - group.den_light
 
 den_light:
   name: Den
   view: no
-  icon: mdi:lightbulb
+  icon: mdi:ceiling-light
   entities:
     - light.den
     - light.den_2
@@ -131,7 +130,7 @@ dining_room:
 dining_room_light:
   name: Dining Room
   view: no
-  icon: mdi:lightbulb
+  icon: mdi:ceiling-light
   entities:
     - light.dining_room
     - light.dining_room_2
@@ -146,7 +145,7 @@ kitchen:
 
 kitchen_fan:
   name: Kitchen Fan
-  icon: mdi:lightbulb
+  icon: mdi:ceiling-light
   entities:
     - light.kitchen_fan
     - light.kitchen_fan_2
