@@ -7,18 +7,18 @@ default_view:
     - sensor.stephens_iphone_6_battery_level
     - group.commute
     - group.climate
-    - group.livingroom
+    - group.livin_groom
     - group.hallway
     - group.den
     - group.bedroom
-    - group.diningroom
+    - group.dining_room
     - group.kitchen
     - group.office
     - group.outdoor
 
 camera_view:
   view: yes
-  icon: mdi:camcorder
+  icon: mdi:cctv
   entities:
     - camera.den
     - camera.office
@@ -62,34 +62,46 @@ climate:
     - sensor.my_ecobee3_humidity
     - climate.my_ecobee3
 
-livingroom:
+living_room:
   name: Living Room
   view: no
   entities:
     - sensor.living_room_temperature
     - binary_sensor.living_room_occupancy
-    - light.living_room_downlight_1
+    - group.living_room_downlights
+    - light.left_end_table
+    - light.right_end_table
+
+living_room_downlights:
+  name: Living Room Downlights
+  view: no
+  entities:
+    - light.living_room_downlight
     - light.living_room_downlight_2
     - light.living_room_downlight_3
     - light.living_room_downlight_4
     - light.living_room_downlight_5
     - light.living_room_downlight_6
-    - light.left_end_table
-    - light.right_end_table
 
 hallway:
   name: Hallway
   view: no
   entities:
     - binary_sensor.my_ecobee3_occupancy
-    - light.hallway_1
+    - group.hallway_light
+
+hallway_light:
+  name: Hallway
+  view: no
+  entities:
+    - light.hallway
     - light.hallway_2
 
 den:
   name: Den
   view: no
   entities:
-    - light.den_1
+    - light.den
     - light.den_2
 
 bedroom:
@@ -100,20 +112,31 @@ bedroom:
     - binary_sensor.bedroom_occupancy
     - light.nightstand
 
-diningroom:
+dining_room:
   name: Dining Room
   view: no
   entities:
-    - light.dining_room_1
+    - group.dining_room_light
+
+dining_room_light:
+  name: Dining Room
+  view: no
+  entities:
+    - light.dining_room
     - light.dining_room_2
     - light.dining_room_3
 
-kichen:
+kitchen:
   name: Kitchen
   view: no
   entities:
     - light.sink
-    - light.kitchen_fan_1
+    - group.kitchen_fan
+
+kitchen_fan:
+  name: Kitchen Fan
+  entities: 
+    - light.kitchen_fan
     - light.kitchen_fan_2
 
 office:
