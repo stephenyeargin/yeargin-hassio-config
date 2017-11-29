@@ -7,7 +7,7 @@ default_view:
     - sensor.stephens_iphone_6_battery_level
     - group.commute
     - group.climate
-    - group.livin_groom
+    - group.living_room
     - group.hallway
     - group.den
     - group.bedroom
