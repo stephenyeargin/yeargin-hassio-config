@@ -197,6 +197,10 @@ binary_sensor:
     nodes:
       - 'yeargin'
 
+# Bluetooth Tracking
+device_tracker:
+  - platform: bluetooth_tracker
+
 # Zones
 zone:
   - name: Vanderbilt
@@ -209,6 +213,7 @@ zone:
     longitude: -86.7675063
     icon: mdi:briefcase
 
+# Included Files
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml

@@ -2,9 +2,6 @@ default_view:
   view: yes
   icon: mdi:home
   entities:
-    - alarm_control_panel.simplisafe
-    - device_tracker.stephens_iphone_6
-    - sensor.stephens_iphone_6_battery_level
     - group.commute
     - group.climate
     - group.living_room
@@ -17,9 +14,11 @@ default_view:
     - group.outdoor
 
 camera_view:
+  name: Security
   view: yes
   icon: mdi:cctv
   entities:
+    - alarm_control_panel.simplisafe
     - camera.den
     - camera.office
 
