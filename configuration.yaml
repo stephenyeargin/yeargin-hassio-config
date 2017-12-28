@@ -201,6 +201,11 @@ binary_sensor:
 device_tracker:
   - platform: bluetooth_tracker
 
+  - platform: unifi
+    hostname: !secret unifi_host
+    username: !secret unifi_username
+    password: !secret unifi_password
+
 # Zones
 zone:
   - name: Vanderbilt
