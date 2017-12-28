@@ -202,7 +202,7 @@ device_tracker:
   - platform: bluetooth_tracker
 
   - platform: unifi
-    hostname: !secret unifi_host
+    host: !secret unifi_host
     username: !secret unifi_username
     password: !secret unifi_password
 
