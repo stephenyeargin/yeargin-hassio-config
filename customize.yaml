@@ -18,5 +18,3 @@ sensor.next_4_bus:
   icon: mdi:bus
 sensor.next_35_bus:
   icon: mdi:bus
-group.all_devices:
-  hidden: false
