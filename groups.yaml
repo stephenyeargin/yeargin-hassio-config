@@ -37,6 +37,7 @@ tech_view:
     - group.linode
     - group.whois
     - group.travis
+    - group.all_devices
 
 commute:
   name: Commute
