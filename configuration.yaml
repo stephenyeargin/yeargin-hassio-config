@@ -15,12 +15,12 @@ homeassistant:
 
 # Enable AppleTV devices
 apple_tv:
-  - host: 192.168.1.10
+  - host: 10.252.0.108
     login_id: !secret living_room_apple_tv_login_id
     name: Living Room Apple TV
     start_off: true
 
-  - host: 192.168.1.113
+  - host: 10.252.0.101
     login_id: !secret bedroom_apple_tv_login_id
     name: Bedroom Apple TV
     start_off: true
@@ -169,11 +169,11 @@ alarm_control_panel:
 camera:
   - platform: mjpeg
     name: Den
-    mjpeg_url: http://192.168.1.100:8081
+    mjpeg_url: http://10.252.0.100:8081
 
   - platform: mjpeg
     name: Office
-    mjpeg_url: http://192.168.1.112:80
+    mjpeg_url: http://10.252.0.109:80
 
 # iOS Notifications
 ios:
@@ -199,8 +199,6 @@ binary_sensor:
 
 # Bluetooth Tracking
 device_tracker:
-  - platform: bluetooth_tracker
-
   - platform: unifi
     host: !secret unifi_host
     username: !secret unifi_username
