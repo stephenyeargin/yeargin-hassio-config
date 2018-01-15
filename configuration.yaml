@@ -15,12 +15,12 @@ homeassistant:
 
 # Enable AppleTV devices
 apple_tv:
-  - host: 10.252.0.108
+  - host: 10.252.0.107
     login_id: !secret living_room_apple_tv_login_id
     name: Living Room Apple TV
     start_off: true
 
-  - host: 10.252.0.101
+  - host: 10.252.0.108
     login_id: !secret bedroom_apple_tv_login_id
     name: Bedroom Apple TV
     start_off: true
@@ -39,7 +39,7 @@ http:
   api_password: !secret http_password
   # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
   # base_url: example.duckdns.org:8123
-  server_port: 80
+  # server_port: 8123
 
 # Checks for available updates
 # Note: This component will send some information about your system to
