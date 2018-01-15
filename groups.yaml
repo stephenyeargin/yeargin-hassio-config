@@ -8,6 +8,7 @@ default_view:
     - group.hallway
     - group.den
     - group.bedroom
+    - group.second_bedroom
     - group.dining_room
     - group.kitchen
     - group.office
@@ -103,6 +104,8 @@ den:
   view: no
   entities:
     - group.den_light
+    - sensor.den_temperature
+    - binary_sensor.den_occupancy
 
 den_light:
   name: Den
@@ -119,6 +122,13 @@ bedroom:
     - sensor.bedroom_temperature
     - binary_sensor.bedroom_occupancy
     - light.nightstand
+
+second_bedroom:
+  name: Second Bedroom
+  view: no
+  entities:
+    - sensor.second_bedroom_temperature
+    - binary_sensor.second_bedroom_occupancy
 
 dining_room:
   name: Dining Room
