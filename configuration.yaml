@@ -28,6 +28,9 @@ apple_tv:
 # Enables the frontend
 frontend:
 
+# Cloud component
+cloud:
+
 # Enables configuration UI
 config:
 
