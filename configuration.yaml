@@ -224,3 +224,4 @@ zone:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+logger: !include logger.yaml
