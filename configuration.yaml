@@ -28,6 +28,9 @@ apple_tv:
 # Enables the frontend
 frontend:
 
+# Cloud component
+cloud:
+
 # Enables configuration UI
 config:
 
@@ -224,3 +227,4 @@ zone:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+logger: !include logger.yaml

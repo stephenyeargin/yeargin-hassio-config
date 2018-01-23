@@ -1,0 +1,3 @@
+default: warning
+logs:
+  requests.packages.urllib3.connectionpool: critical

@@ -5,6 +5,7 @@
 !*.yaml
 !README.md
 !scenes
+!screenshot.png
 known_devices.yaml
 secrets.yaml
 google_calendars.yaml
