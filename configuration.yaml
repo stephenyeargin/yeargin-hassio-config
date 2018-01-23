@@ -197,13 +197,16 @@ binary_sensor:
     nodes:
       - 'yeargin'
 
-# Bluetooth Tracking
+# Unifi Tracking
 device_tracker:
   - platform: unifi
     host: !secret unifi_host
     username: !secret unifi_username
     password: !secret unifi_password
     verify_ssl: false
+    new_device_defaults:
+      track_new_devices: true
+      hide_if_away: false
 
 # Zones
 zone:
