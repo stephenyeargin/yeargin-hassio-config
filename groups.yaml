@@ -20,6 +20,8 @@ camera_view:
   icon: mdi:cctv
   entities:
     - alarm_control_panel.simplisafe
+    - device_tracker.samanthas_iphone_8
+    - device_tracker.stephens_iphone_6
     - camera.den
     - camera.office
 
