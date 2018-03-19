@@ -88,6 +88,16 @@ sensor:
     update_interval:
       minutes: 5
 
+  - platform: pollen
+    zip_code: "37206"
+    monitored_conditions:
+      - allergy_average_forecasted
+      - allergy_average_historical
+      - allergy_index_today
+      - allergy_index_tomorrow
+      - allergy_index_yesterday
+      - disease_average_forecasted
+
   # Bus Schedules
   - platform: gtfs
     name: "Next #4 Bus"
