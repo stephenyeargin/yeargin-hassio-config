@@ -25,6 +25,9 @@ apple_tv:
     name: Bedroom Apple TV
     start_off: true
 
+homekit:
+  pincode: !secret homekit_pincode
+
 # Enables the frontend
 frontend:
 
