@@ -1,0 +1,6 @@
+"alarm_control_panel.simplisafe":
+  hubot_monitor: true
+"device_tracker.stephens_iphone_6":
+  hubot_monitor: true
+"device_tracker.samanthas_iphone_8":
+  hubot_monitor: true
