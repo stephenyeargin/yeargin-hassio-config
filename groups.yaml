@@ -39,7 +39,6 @@ tech_view:
     - group.speedtest
     - group.linode
     - group.whois
-    - group.travis
 
 commute:
   name: Commute
@@ -195,30 +194,6 @@ whois:
     - sensor.unanimously
     - sensor.yeargin
     - sensor.yourliberalfriendscom
-    
-travis:
-  name: TravisCI
-  view: no
-  entities:
-    - sensor.seatshareseatgeek_state
-    - sensor.seatsharesoda_xml_team_state
-    - sensor.stephenyearginhubotbcyclefinder_state
-    - sensor.stephenyearginhubotcreatesend_state
-    - sensor.stephenyearginhubotfitbitleaders_state
-    - sensor.stephenyearginhubotflickrgroupsearch_state
-    - sensor.stephenyearginhubotfoursquarelocator_state
-    - sensor.stephenyearginhubotfoursquarelunch_state
-    - sensor.stephenyearginhubotgetbacktowork_state
-    - sensor.stephenyearginhubotgithubdeployments_state
-    - sensor.stephenyearginhubotgrafana_state
-    - sensor.stephenyearginhubothockey_state
-    - sensor.stephenyearginhubotlyft_state
-    - sensor.stephenyearginhubotnashvillenews_state
-    - sensor.stephenyearginhubotnashvillepollen_state
-    - sensor.stephenyearginhubotnextbus_state
-    - sensor.stephenyearginhubotuntappdfriends_state
-    - sensor.stephenyearginhubotwunderground_state
-    - sensor.stephenyearginyammeroauth2php_state
 
 speedtest:
   name: Speedtest
