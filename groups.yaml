@@ -48,6 +48,7 @@ commute:
     - sensor.lyft_time
     - sensor.lyft_price
     - sensor.dark_sky_nearest_storm_distance
+    - sensor.dark_sky_hourly_summary
     - sensor.dark_sky_minutely_summary
     - sensor.dark_sky_temperature
     - sensor.dark_sky_daily_high_temperature
