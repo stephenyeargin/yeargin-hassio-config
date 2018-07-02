@@ -87,10 +87,11 @@ sensor:
     api_key: !secret darksky_api_key 
     monitored_conditions:
       - minutely_summary
+      - hourly_summary
       - nearest_storm_distance
       - temperature
-      - temperature_max
-      - temperature_min
+      - temperature_high
+      - temperature_low
     update_interval:
       minutes: 5
 
