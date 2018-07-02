@@ -37,7 +37,6 @@ tech_view:
   icon: mdi:desktop-classic
   entities:
     - group.speedtest
-    - group.linode
     - group.whois
 
 commute:
@@ -94,7 +93,7 @@ hallway:
     - group.hallway_light
 
 hallway_light:
-  name: Hallway
+  name: Hallway Light
   view: no
   icon: mdi:ceiling-light
   entities:
@@ -110,7 +109,7 @@ den:
     - binary_sensor.den_occupancy
 
 den_light:
-  name: Den
+  name: Den Light
   view: no
   icon: mdi:ceiling-light
   entities:
@@ -139,7 +138,7 @@ dining_room:
     - group.dining_room_light
 
 dining_room_light:
-  name: Dining Room
+  name: Dining Room Light
   view: no
   icon: mdi:ceiling-light
   entities:
@@ -173,12 +172,6 @@ outdoor:
   view: no
   entities:
     - switch.porch_outlet
-
-linode:
-  name: Linode
-  view: no
-  entities:
-    - binary_sensor.yeargin
 
 whois:
   name: Domains
