@@ -1,48 +1,150 @@
-title: My Awesome Home
+title: Home
 views:
-    # View tab title.
-  - title: Example
-    # Optional unique id for direct access /lovelace/${id}
-    id: example
-    # Each view can have a different theme applied.
-    theme: dark-mode
-    # The cards to show on this view.
+  - title: Controls
+    id: controls
+    icon: mdi:home
     cards:
-        # The filter card will filter entities for their state
-      - type: entity-filter
-        entities:
-          - device_tracker.stephens_iphone_6
-          - device_tracker.samanthas_iphone_8
-        state_filter:
-          - 'home'
-        card_config:
-          type: glance
-          title: People that are home
-
-        # The picture entity card will represent an entity with a picture
-      - type: picture-entity
-        image: https://www.home-assistant.io/images/default-social.png
-        entity: light.nightstand
-
-    # Specify a tab icon if you want the view tab to be an icon.
-  - icon: mdi:home-assistant
-    # Title of the view. Will be used as the tooltip for tab icon
-    title: Second view
-    cards:
-        # Entities card will take list of entities and show their state.
       - type: entities
-        # Title of the entities card
-        title: Example
-        # The entities here will be shown in the same order as specified.
-        # Each entriy is an entity ID or a map with extra options.
+        title: Commute
+        entities:
+          - sensor.next_4_bus
+          - sensor.next_35_bus
+          - sensor.lyft_time
+          - sensor.lyft_price
+          - sensor.dark_sky_nearest_storm_distance
+          - sensor.dark_sky_hourly_summary
+          - sensor.dark_sky_minutely_summary
+          - sensor.dark_sky_temperature
+          - sensor.dark_sky_daily_high_temperature
+          - sensor.dark_sky_daily_low_temperature
+          - sensor.allergy_index_today
+          - sun.sun
+
+      - type: entities
+        title: Climate
+        entities:
+          - sensor.my_ecobee3_temperature
+          - sensor.my_ecobee3_humidity
+          - climate.my_ecobee3
+
+      - type: entities
+        title: Living Room
+        entities:
+          - sensor.living_room_temperature
+          - binary_sensor.living_room_occupancy
+          - light.living_room_downlight
+          - light.living_room_downlight_2
+          - light.living_room_downlight_3
+          - light.living_room_downlight_4
+          - light.living_room_downlight_5
+          - light.living_room_downlight_6
+          - light.left_end_table
+          - light.right_end_table
+
+      - type: entities
+        title: Hallway
+        entities:
+          - binary_sensor.my_ecobee3_occupancy
+          - light.hallway
+          - light.hallway_2
+
+      - type: entities
+        title: Den
+        entities:
+          - light.den
+          - light.den_2
+          - sensor.den_temperature
+          - binary_sensor.den_occupancy
+
+      - type: entities
+        title: Master Bedroom
+        entities:
+          - sensor.bedroom_temperature
+          - binary_sensor.bedroom_occupancy
+          - light.nightstand
+
+      - type: entities
+        title: Second Bedroom
+        entities:
+          - sensor.second_bedroom_temperature
+          - binary_sensor.second_bedroom_occupancy
+    
+      - type: entities
+        title: Dining Room
+        entities:
+          - light.dining_room
+          - light.dining_room_2
+          - light.dining_room_3
+
+      - type: entities
+        title: Kitchen
         entities:
           - light.kitchen_sink
-          - entity: group.living_room_downlights
-            # Override the name to use
-            name: LR Lights
+          - light.kitchen_fan
+          - light.kitchen_fan_2
 
-        # The markdown card will render markdown text.
-      - type: markdown
-        title: Lovelace
-        content: >
-          Welcome to your **Lovelace UI**.
+      - type: entities
+        title: Office
+        entities:
+          - sensor.office_temperature
+          - binary_sensor.office_occupancy
+ 
+      - type: entities
+        title: Outdoor
+        entities:
+          - switch.porch_outlet
+
+  - title: Security
+    id: security
+    icon: mdi:cctv
+    cards:
+      - type: glance
+        entities:
+          - alarm_control_panel.simplisafe
+          - device_tracker.samanthas_iphone_8
+          - device_tracker.stephens_iphone_6
+
+      - type: picture-entity
+        title: Den
+        entity: camera.den
+        camera_image: camera.den
+
+      - type: picture-entity
+        title: Den
+        entity: camera.office
+        camera_image: camera.office
+
+  - title: Media
+    id: media
+    icon: mdi:television
+    cards:
+      - type: media-control
+        entity: media_player.living_room_apple_tv
+
+      - type: media-control
+        entity: media_player.bedroom_apple_tv
+
+  - title: Technology
+    id: technology
+    icon: mdi:desktop-classic
+    cards:
+      - type: entities
+        title: Speedtest
+        entities:
+          - sensor.speedtest_download
+          - sensor.speedtest_upload
+          - sensor.speedtest_ping
+
+      - type: entities
+        title: Whois
+        entities:
+          - sensor.myseatsharecom
+          - sensor.samanthaycom
+          - sensor.samanthaycom_2
+          - sensor.seatshare
+          - sensor.slyeargincom
+          - sensor.stephenyeargincom
+          - sensor.strangepursuitnet
+          - sensor.unanimously
+          - sensor.yeargin
+          - sensor.yourliberalfriendscom
