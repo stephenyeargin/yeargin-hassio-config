@@ -121,6 +121,9 @@ sensor:
     start_longitude: -86.7182701
     end_latitude: 36.1610221
     end_longitude: -86.7815272
+    product_ids:
+      - 'lyft'
+      - 'lyft_plus'
 
   # Whois
   - platform: whois
