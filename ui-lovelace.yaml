@@ -20,11 +20,11 @@ views:
           - entity: sensor.dark_sky_temperature
             name: Current Temperature
           - entity: sensor.dark_sky_daytime_high_temperature
-            name: Overnight Low Temperature
+            name: Daytime High Temperature
           - entity: sensor.dark_sky_overnight_low_temperature
             name: Overnight Low Temperature
           - sensor.allergy_index_today
-          - sensor.allergy_index_today
+          - sensor.allergy_index_tomorrow
           - sun.sun
 
       - type: entities
