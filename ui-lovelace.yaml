@@ -15,8 +15,8 @@ views:
           - sensor.dark_sky_hourly_summary
           - sensor.dark_sky_minutely_summary
           - sensor.dark_sky_temperature
-          - sensor.dark_sky_daily_high_temperature
-          - sensor.dark_sky_daily_low_temperature
+          - sensor.dark_sky_daytime_high_temperature
+          - sensor.dark_sky_daytime_low_temperature
           - sensor.allergy_index_today
           - sun.sun
 
