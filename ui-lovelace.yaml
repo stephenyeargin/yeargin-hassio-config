@@ -119,11 +119,6 @@ views:
     icon: mdi:desktop-classic
     cards:
       - type: entities
-        title: System Update
-        entities:
-          - updater.updater
-
-      - type: entities
         title: Speedtest
         entities:
           - sensor.speedtest_download
