@@ -118,6 +118,11 @@ views:
     id: technology
     icon: mdi:desktop-classic
     cards:
+      - type: entity-filter
+        title: System Update
+        entities:
+          - updater.updater
+
       - type: entities
         title: Speedtest
         entities:
