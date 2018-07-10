@@ -118,7 +118,7 @@ views:
     id: technology
     icon: mdi:desktop-classic
     cards:
-      - type: entity-filter
+      - type: entities
         title: System Update
         entities:
           - updater.updater
