@@ -104,13 +104,13 @@ sensor:
   - platform: gtfs
     name: "Next #4 Bus"
     origin: PRECARSN
-    destination: MCC4_14
+    destination: UNI2AWN
     data: google_transit.zip
 
   - platform: gtfs
     name: "Next #3/#5 Bus"
     origin: WES25AEN
-    destination: MCC5_5
+    destination: CHA6AEN
     data: google_transit.zip
 
   # Lyft
