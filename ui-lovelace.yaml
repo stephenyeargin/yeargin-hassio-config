@@ -40,7 +40,7 @@ views:
         title: Hallway
         entities:
           - binary_sensor.my_ecobee3_occupancy
-          - group.hallway
+          - group.hallway_light
 
       - type: entities
         title: Den
