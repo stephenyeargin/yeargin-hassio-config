@@ -206,8 +206,8 @@ device_tracker:
 # Zones
 zone:
   - name: Vanderbilt
-    latitude: 36.145793
-    longitude: -86.8096052
+    latitude: 36.146122
+    longitude: -86.808906
     icon: mdi:briefcase
 
   - name: Emma
