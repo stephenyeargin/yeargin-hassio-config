@@ -119,6 +119,9 @@ sensor:
     start_longitude: -86.7182701
     end_latitude: 36.1610221
     end_longitude: -86.7815272
+    product_ids:
+      - 'lyft'
+      - 'lyft_plus'
 
   # Whois
   - platform: whois
@@ -201,8 +204,8 @@ device_tracker:
 # Zones
 zone:
   - name: Vanderbilt
-    latitude: 36.145793
-    longitude: -86.8096052
+    latitude: 36.146122
+    longitude: -86.808906
     icon: mdi:briefcase
 
   - name: Emma
