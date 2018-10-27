@@ -175,7 +175,7 @@ sensor:
 simplisafe:
   accounts:
     - username: !secret simplisafe_username 
-    - password: !secret simplisafe_password 
+      password: !secret simplisafe_password 
 
 # Webcam
 camera:
