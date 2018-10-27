@@ -172,10 +172,10 @@ sensor:
       - upload
 
 # Alarm
-alarm_control_panel:
-  platform: simplisafe
-  username: !secret simplisafe_username 
-  password: !secret simplisafe_password 
+simplisafe:
+  accounts:
+    - username: !secret simplisafe_username 
+    - password: !secret simplisafe_password 
 
 # Webcam
 camera:
@@ -208,7 +208,7 @@ zone:
     longitude: -86.808906
     icon: mdi:briefcase
 
-  - name: Emma
+  - name: Campaign Monitor
     latitude: 36.15788
     longitude: -86.7675063
     icon: mdi:briefcase
