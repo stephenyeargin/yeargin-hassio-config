@@ -203,14 +203,22 @@ device_tracker:
 
 # Zones
 zone:
+  - name: Home
+    latitude: 36.1880707 
+    longitude: -86.7182701
+    radius: 150
+    icon: mdi:home
+
   - name: Vanderbilt
     latitude: 36.146122
     longitude: -86.808906
+    radius: 150
     icon: mdi:briefcase
 
   - name: Campaign Monitor
     latitude: 36.15788
     longitude: -86.7675063
+    radius: 150
     icon: mdi:briefcase
 
 # Included Files
