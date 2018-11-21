@@ -99,70 +99,70 @@ sensor:
       - disease_average_forecasted
 
   # Bus Schedules
-  # - platform: gtfs
-  #   name: "Next #4 Bus"
-  #   origin: PRECARSN
-  #   destination: UNI2AWN
-  #   data: google_transit.zip
-  # 
-  # - platform: gtfs
-  #   name: "Next #3/#5 Bus"
-  #   origin: WES25AEN
-  #   destination: CHA6AEN
-  #   data: google_transit.zip
+  - platform: gtfs
+    name: "Next #4 Bus"
+    origin: PRECARSN
+    destination: UNI2AWN
+    data: google_transit.zip
+
+  - platform: gtfs
+    name: "Next #3/#5 Bus"
+    origin: WES25AEN
+    destination: CHA6AEN
+    data: google_transit.zip
 
   # Lyft
-  # - platform: lyft
-  #   client_id: !secret lyft_client_id
-  #   client_secret: !secret lyft_client_secret
-  #   start_latitude: 36.1880707
-  #   start_longitude: -86.7182701
-  #   end_latitude: 36.1610221
-  #   end_longitude: -86.7815272
-  #   product_ids:
-  #     - 'lyft'
-  #     - 'lyft_plus'
+  - platform: lyft
+    client_id: !secret lyft_client_id
+    client_secret: !secret lyft_client_secret
+    start_latitude: 36.1880707
+    start_longitude: -86.7182701
+    end_latitude: 36.1610221
+    end_longitude: -86.7815272
+    product_ids:
+      - 'lyft'
+      - 'lyft_plus'
 
   # Whois
-  # - platform: whois
-  #   domain: myseatshare.com
-  #   name: myseatshare.com
-  # 
-  # - platform: whois
-  #   domain: samantha-y.com
-  #   name: samantha-y.com
-  # 
-  # - platform: whois
-  #   domain: samanthay.com
-  #   name: samanthay.com
-  # 
-  # - platform: whois
-  #   domain: seatsha.re
-  #   name: seatsha.re
-  # 
-  # - platform: whois
-  #   domain: slyeargin.com
-  #   name: slyeargin.com
-  # 
-  # - platform: whois
-  #   domain: stephenyeargin.com
-  #   name: stephenyeargin.com
-  # 
-  # - platform: whois
-  #   domain: strangepursuit.net
-  #   name: strangepursuit.net
-  # 
-  # - platform: whois
-  #   domain: unanimous.ly
-  #   name: unanimous.ly
-  # 
-  # - platform: whois
-  #   domain: yearg.in
-  #   name: yearg.in
-  # 
-  # - platform: whois
-  #   domain: yourliberalfriends.com
-  #   name: yourliberalfriends.com
+  - platform: whois
+    domain: myseatshare.com
+    name: myseatshare.com
+
+  - platform: whois
+    domain: samantha-y.com
+    name: samantha-y.com
+
+  - platform: whois
+    domain: samanthay.com
+    name: samanthay.com
+
+  - platform: whois
+    domain: seatsha.re
+    name: seatsha.re
+
+  - platform: whois
+    domain: slyeargin.com
+    name: slyeargin.com
+
+  - platform: whois
+    domain: stephenyeargin.com
+    name: stephenyeargin.com
+
+  - platform: whois
+    domain: strangepursuit.net
+    name: strangepursuit.net
+
+  - platform: whois
+    domain: unanimous.ly
+    name: unanimous.ly
+
+  - platform: whois
+    domain: yearg.in
+    name: yearg.in
+
+  - platform: whois
+    domain: yourliberalfriends.com
+    name: yourliberalfriends.com
 
   # SpeedTest
   - platform: speedtest

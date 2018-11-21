@@ -7,10 +7,10 @@ views:
       - type: entities
         title: Commute
         entities:
-          # - sensor.next_4_bus
-          # - sensor.next_35_bus
-          # - sensor.lyft_time
-          # - sensor.lyft_price
+          - sensor.next_4_bus
+          - sensor.next_35_bus
+          - sensor.lyft_time
+          - sensor.lyft_price
           - entity: sensor.dark_sky_nearest_storm_distance
             name: Nearest Storm Distance
           - entity: sensor.dark_sky_hourly_summary
@@ -132,16 +132,16 @@ views:
           - sensor.speedtest_upload
           - sensor.speedtest_ping
 
-      # - type: entities
-      #   title: Whois
-      #   entities:
-      #     - sensor.myseatsharecom
-      #     - sensor.samanthaycom
-      #     - sensor.samanthaycom_2
-      #     - sensor.seatshare
-      #     - sensor.slyeargincom
-      #     - sensor.stephenyeargincom
-      #     - sensor.strangepursuitnet
-      #     - sensor.unanimously
-      #     - sensor.yeargin
-      #     - sensor.yourliberalfriendscom
+      - type: entities
+        title: Whois
+        entities:
+          - sensor.myseatsharecom
+          - sensor.samanthaycom
+          - sensor.samanthaycom_2
+          - sensor.seatshare
+          - sensor.slyeargincom
+          - sensor.stephenyeargincom
+          - sensor.strangepursuitnet
+          - sensor.unanimously
+          - sensor.yeargin
+          - sensor.yourliberalfriendscom
