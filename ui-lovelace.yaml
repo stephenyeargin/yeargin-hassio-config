@@ -86,7 +86,7 @@ views:
         title: Outdoor
         entities:
           - entity: switch.porch_outlet
-            icon: mdi:power
+            icon: mdi:power-plug
 
   - title: Security
     id: security
