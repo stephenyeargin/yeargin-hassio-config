@@ -5,6 +5,7 @@ views:
     icon: mdi:home
     cards:
       - type: entities
+        id: commute-card
         title: Commute
         entities:
           - entity: sensor.dark_sky_nearest_storm_distance
@@ -15,15 +16,16 @@ views:
             name: Next Hour
           - entity: sensor.dark_sky_temperature
             name: Current Temperature
-          - entity: sensor.dark_sky_daytime_high_temperature
+          - entity: sensor.dark_sky_daytime_high_temperature_0
             name: Daytime High Temperature
-          - entity: sensor.dark_sky_overnight_low_temperature
+          - entity: sensor.dark_sky_overnight_low_temperature_0
             name: Overnight Low Temperature
           - sensor.allergy_index_today
           - sensor.allergy_index_tomorrow
           - sun.sun
 
       - type: entities
+        id: climate-card
         title: Climate
         entities:
           - sensor.my_ecobee3_temperature
@@ -31,6 +33,7 @@ views:
           - climate.my_ecobee3
 
       - type: entities
+        id: living-room-card
         title: Living Room
         entities:
           - sensor.living_room_temperature
@@ -40,12 +43,14 @@ views:
           - light.right_end_table
 
       - type: entities
+        id: hallway-card
         title: Hallway
         entities:
           - binary_sensor.my_ecobee3_occupancy
           - group.hallway_light
 
       - type: entities
+        id: den-card
         title: Den
         entities:
           - group.den_light
@@ -53,6 +58,7 @@ views:
           - binary_sensor.den_occupancy
 
       - type: entities
+        id: master-bedroom-card
         title: Master Bedroom
         entities:
           - sensor.bedroom_temperature
@@ -60,29 +66,34 @@ views:
           - light.nightstand
 
       - type: entities
+        id: second-bedroom-card
         title: Second Bedroom
         entities:
           - sensor.second_bedroom_temperature
           - binary_sensor.second_bedroom_occupancy
     
       - type: entities
+        id: dining-room-card
         title: Dining Room
         entities:
           - group.dining_room_light
 
       - type: entities
+        id: kitchen-card
         title: Kitchen
         entities:
           - light.kitchen_sink
           - group.kitchen_fan
 
       - type: entities
+        id: office-card
         title: Office
         entities:
           - sensor.office_temperature
           - binary_sensor.office_occupancy
  
       - type: entities
+        id: outdoor-card
         title: Outdoor
         entities:
           - entity: switch.porch_outlet
@@ -93,18 +104,21 @@ views:
     icon: mdi:cctv
     cards:
       - type: entities
+        id: alarm-card
         entities:
           - alarm_control_panel.simplisafe
           - device_tracker.samanthas_iphone_8
           - device_tracker.stephens_iphone_6
 
       - type: picture-entity
+        id: den-camera-card
         title: Den
         entity: camera.den
         camera_image: camera.den
 
       - type: picture-entity
-        title: Den
+        id: office-camera-card
+        title: Office
         entity: camera.office
         camera_image: camera.office
 
@@ -113,9 +127,11 @@ views:
     icon: mdi:television
     cards:
       - type: media-control
+        id: living-room-apple-tv-card
         entity: media_player.living_room_apple_tv
 
       - type: media-control
+        id: bedroom-apple-tv-card
         entity: media_player.bedroom_apple_tv
 
   - title: Technology
@@ -123,6 +139,7 @@ views:
     icon: mdi:desktop-classic
     cards:
       - type: entities
+        id: speedtest-card
         title: Speedtest
         entities:
           - sensor.speedtest_download
