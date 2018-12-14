@@ -14,3 +14,7 @@ binary_sensor.my_ecobee3_occupancy:
   friendly_name: Hallway Occupancy
 sensor.my_ecobee3_temperature:
   friendly_name: Avg. Home Temp.
+sensor.dark_sky_daytime_high_temperature_0:
+  friendly_name: Daytime High Temperature
+sensor.dark_sky_overnight_low_temperature_0:
+  friendly_name: Overnight Low Temperature
