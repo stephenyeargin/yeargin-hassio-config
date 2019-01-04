@@ -117,7 +117,7 @@ simplisafe:
 camera:
   - platform: mjpeg
     name: Den
-    mjpeg_url: http://10.252.0.100:8081
+    mjpeg_url: http://10.252.0.111:8081
 
   - platform: mjpeg
     name: Office
