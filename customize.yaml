@@ -12,9 +12,26 @@ sensor.my_ecobee3_humidity:
   friendly_name: Humidity
 binary_sensor.my_ecobee3_occupancy:
   friendly_name: Hallway Occupancy
+  icon: mdi:motion-sensor
+binary_sensor.living_room_occupancy:
+  icon: mdi:motion-sensor
+binary_sensor.den_occupancy:
+  icon: mdi:motion-sensor
+binary_sensor.bedroom_occupancy:
+  icon: mdi:motion-sensor
+binary_sensor.second_bedroom_occupancy:
+  icon: mdi:motion-sensor
+binary_sensor.office_occupancy:
+  icon: mdi:motion-sensor
 sensor.my_ecobee3_temperature:
   friendly_name: Avg. Home Temp.
 sensor.dark_sky_daytime_high_temperature_0:
   friendly_name: Daytime High Temperature
 sensor.dark_sky_overnight_low_temperature_0:
   friendly_name: Overnight Low Temperature
+light.left_end_table:
+  icon: mdi:lamp
+light.right_end_table:
+  icon: mdi:lamp
+light.kitchen_sink:
+  icon: mdi:ceiling-light

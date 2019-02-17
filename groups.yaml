@@ -185,3 +185,17 @@ kitchen_fan:
   entities:
     - light.kitchen_fan
     - light.kitchen_fan_2
+
+nightstand_left:
+  name: Nightstand Left
+  icon: mdi:wall-sconce
+  entities:
+    - light.nightstand_left
+    - light.nightstand_left_2
+
+nightstand_right:
+  name: Nightstand Right
+  icon: mdi:wall-sconce
+  entities:
+    - light.nightstand_right
+    - light.nightstand_right_2
