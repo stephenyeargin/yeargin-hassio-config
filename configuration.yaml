@@ -46,8 +46,8 @@ map:
 
 http:
   base_url: !secret http_base_url
-  ssl_certificate: /ssl/fullchain.pem
-  ssl_key: /ssl/privkey.pem
+  ssl_certificate: !secret ssl_certificate_path
+  ssl_key: !secret ssl_key_path
 
 # Checks for available updates
 # Note: This component will send some information about your system to
