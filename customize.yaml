@@ -35,3 +35,5 @@ light.right_end_table:
   icon: mdi:lamp
 light.kitchen_sink:
   icon: mdi:ceiling-light
+light.office:
+  icon: mdi:lamp
