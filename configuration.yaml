@@ -105,7 +105,7 @@ sensor:
 
 # Speedtest.net
 speedtestdotnet:
-  scan_interval:
+  update_interval:
     minutes: 30
   monitored_conditions:
     - ping
