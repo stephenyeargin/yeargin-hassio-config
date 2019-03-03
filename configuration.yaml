@@ -90,7 +90,7 @@ sensor:
       - temperature
       - temperature_high
       - temperature_low
-    update_interval:
+    scan_interval:
       minutes: 5
 
   - platform: pollen
@@ -105,7 +105,7 @@ sensor:
 
 # Speedtest.net
 speedtestdotnet:
-  update_interval:
+  scan_interval:
     minutes: 30
   monitored_conditions:
     - ping
