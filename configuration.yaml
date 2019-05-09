@@ -49,6 +49,9 @@ http:
   ssl_certificate: !secret ssl_certificate_path
   ssl_key: !secret ssl_key_path
 
+# Mobile App Enabled
+mobile_app:
+
 # Checks for available updates
 # Note: This component will send some information about your system to
 # the developers to assist with development of Home Assistant.
