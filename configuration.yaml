@@ -99,11 +99,6 @@ sensor:
 # IQVIA (Pollen.com)
 iqvia:
   zip_code: "37206"
-  monitored_conditions:
-    - allergy_average_forecasted
-    - allergy_index_today
-    - allergy_index_tomorrow
-    - allergy_index_yesterday
 
 # Speedtest.net
 speedtestdotnet:
