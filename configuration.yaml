@@ -95,6 +95,8 @@ sensor:
       - temperature_low
     scan_interval:
       minutes: 5
+
+# IQVIA (Pollen.com)
 iqvia:
   zip_code: "37206"
   monitored_conditions:
