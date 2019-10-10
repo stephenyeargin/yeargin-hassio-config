@@ -14,6 +14,12 @@ homeassistant:
   customize: !include customize.yaml
   customize_glob: !include customize_glob.yaml
 
+# SSL
+http:
+  base_url: https://hassio.yearg.in
+  ssl_certificate: /ssl/fullchain.pem
+  ssl_key: /ssl/privkey.pem
+
 # Monitor system health
 system_health:
 
@@ -32,7 +38,7 @@ apple_tv:
 homekit:
   filter:
     include_entities:
-      - alarm_control_panel.simplisafe
+      - alarm_control_panel.1108_preston_dr
 
 # Enables the frontend
 frontend:
@@ -43,11 +49,6 @@ config:
 
 # Show devices on map
 map:
-
-http:
-  base_url: !secret http_base_url
-  ssl_certificate: !secret ssl_certificate_path
-  ssl_key: !secret ssl_key_path
 
 # Mobile App Enabled
 mobile_app:
@@ -120,20 +121,6 @@ camera:
   - platform: mjpeg
     name: Office
     mjpeg_url: http://10.252.0.109:80
-
-# iOS Notifications
-ios:
-
-# Unifi Tracking
-device_tracker:
-  - platform: unifi
-    host: !secret unifi_host
-    username: !secret unifi_username
-    password: !secret unifi_password
-    verify_ssl: false
-    new_device_defaults:
-      track_new_devices: true
-      hide_if_away: false
 
 # Zones
 zone:
