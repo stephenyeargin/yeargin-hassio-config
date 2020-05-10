@@ -25,20 +25,21 @@ system_health:
 
 # Enable AppleTV devices
 apple_tv:
-  - host: 10.252.0.107
+  - host: 10.251.0.107
     login_id: !secret living_room_apple_tv_login_id
     name: Living Room Apple TV
     start_off: true
+    credentials: !secret living_room_apple_tv_credentials
 
-  - host: 10.252.0.108
+  - host: 10.251.0.108
     login_id: !secret bedroom_apple_tv_login_id
     name: Bedroom Apple TV
     start_off: true
 
 homekit:
   filter:
-    include_entities:
-      - alarm_control_panel.1108_preston_dr
+    include_domains:
+      - alarm_control_panel
 
 # Enables the frontend
 frontend:
@@ -81,22 +82,6 @@ ecobee:
 # Wink (for switches)
 wink:
 
-sensor:
-  # Weather
-  - platform: darksky
-    api_key: !secret darksky_api_key 
-    forecast:
-      - 0
-    monitored_conditions:
-      - minutely_summary
-      - hourly_summary
-      - nearest_storm_distance
-      - temperature
-      - temperature_high
-      - temperature_low
-    scan_interval:
-      minutes: 5
-
 # Speedtest.net
 speedtestdotnet:
   scan_interval:
@@ -116,11 +101,11 @@ simplisafe:
 camera:
   - platform: mjpeg
     name: Den
-    mjpeg_url: http://10.252.0.111:8081
+    mjpeg_url: http://10.251.0.111:8081
 
   - platform: mjpeg
     name: Office
-    mjpeg_url: http://10.252.0.109:80
+    mjpeg_url: http://10.251.0.109:80
 
 # Zones
 zone:
