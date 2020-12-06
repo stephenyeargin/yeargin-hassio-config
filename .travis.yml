@@ -1,7 +1,13 @@
+os: linux
+dist: xenial
+
 language: python
 python:
-  - "3.5"
+  - "3.8.6"
 before_install:
+  - mkdir -p /ssl
+  - touch /ssl/fullchain.pem
+  - touch /ssl/privkey.pem
   - cp .secrets-travis.yaml secrets.yaml
 install:
   - pip3 install homeassistant
